@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartment Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our 24/7 Apartment Booking</h1>
+        <p>Book your stay, leave a review, and explore our locations.</p>
+        <a href="#booking" class="btn">Book Now</a>
+    </header>
+
+    <section id="booking">
+        <h2>Book an Apartment</h2>
+        <p>Click the button below to book directly via our social media.</p>
+        <a href="https://wa.me/YOUR_NUMBER" class="btn">WhatsApp Booking</a>
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <div id="review-list"></div>
+        <textarea id="review-input" placeholder="Write a review..."></textarea>
+        <button onclick="addReview()">Submit Review</button>
+    </section>
+
+    <section id="location">
+        <h2>Our Location</h2>
+        <iframe src="https://maps.google.com/maps?q=YOUR_LOCATION&output=embed"></iframe>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
